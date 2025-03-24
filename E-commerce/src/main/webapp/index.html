@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJV Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <!-- Top Header -->
+   <div class="top-header">
+       <a href="#">About Us</a>
+       <a href="#">Customer Support</a>
+       <a href="#">Get 20% Discount</a>
+       <div class="login-div">
+           <img src="login.jpeg" alt="login-icon" width="20" height="20">
+           <button class="login-btn" onclick="login()">Log In</button>
+       </div>
+   </div>
+
+   <!-- Main Header -->
+   <header class="header">
+       <h1 class="logo">AJV SHOP</h1>
+       <nav>
+           <div class="search-container">
+               <input type="text" id="search" placeholder="Search...">
+               <button class="search-btn">🔍</button>
+           </div>
+           <svg class="menu-icon" onclick="toggleMenu()" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+               <path fill="currentColor" d="M2 5h20v2H2zM2 11h20v2H2zM2 17h20v2H2z"></path>
+           </svg>
+       </nav>
+   </header>
+
+   <!-- Menu Content -->
+   <div class="menu-content" id="menu">
+       <a href="login.html">Product</a>
+       <a href="login.html">Solutions</a>
+       <a href="#">Resources</a>
+       <a href="#">Mobile App</a>
+       <a href="#">Wix Studio</a>
+       <a href="#">Enterprise</a>
+       <a href="#">English</a>
+   </div>
+
+   <!-- Third Header -->
+   <div class="third-header"> 
+       <a href="#">Deals</a>
+       <a href="#">Food</a>
+       <a href="#">Beverages</a>
+       <a href="#">Household</a>
+       <a href="#">Personal Care</a>
+       <a href="#">My Orders</a>
+   </div>
+   
+   <!-- Hero Section -->
+   <section class="hero">
+       <div class="hero-content">
+           <h2>Easy, Fresh & Convenient</h2>
+           <h1>Stock Up on <br> Daily Essentials</h1>
+           <p>Save Big on Your Favorite Brands</p>
+           <button class="shop-now">Shop Now</button>
+       </div>
+       <div class="hero-image">
+           <img src="diapers.png" alt="Daily Essentials">
+       </div>
+   </section>
+
+   <!-- Services -->
+   <section class="services">
+       <div class="service">
+           <p>🚚 Free Delivery<br><span>To Your Door</span></p>
+       </div>
+       <div class="service">
+           <p>📍 Local Pickup<br><span>Check Out Locations</span></p>
+       </div>
+       <div class="service">
+           <p>📞 Online Support 24/7</p>
+       </div>
+       <div class="service">
+           <p>📱 Order on the Go<br><span>Download Our App</span></p>
+       </div>
+   </section>
+
+   <!-- Best Deals Section -->
+   <section class="best-deals">
+       <h2>Best Deals</h2>
+       <div class="deals-container">
+           <div class="deal-card">
+               <span class="best-deal">Best Deal</span>
+               <img src="herbal-tea.jpg" alt="Herbal Tea">
+               <p>Herbal Tea 16 ct.</p>
+               <p class="price">$3.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+           </div>
+           <div class="deal-card">
+               <span class="best-deal">Best Deal</span>
+               <img src="strawberries.jpg" alt="Strawberries">
+               <p>Strawberries - 1lb</p>
+               <p class="old-price">$4.99</p>
+               <p class="price">$4.49</p>
+               <button class="add-to-cart">Add to Cart</button>
+           </div>
+       </div>
+       <button class="shop-best-deals">Shop Best Deals</button>
+   </section>
+   
+   <script src="script.js"></script>
+</body>
+</html>
